@@ -1,0 +1,70 @@
+ /*styles/MenuBar.module.css*/
+
+
+  
+
+.home {
+    font-size: 1.25rem;
+   padding: 0.5rem;
+   border-radius: 0.75rem;
+   text-align: center;
+}
+.home:hover {
+    
+   color: white;
+   background-color: gray;
+   border: none;
+   transition: 0.5s;
+}
+
+.resume {
+    font-size: 1.25rem;
+   padding: 0.5rem;
+   border-radius: 0.75rem;
+   text-align: center;
+   margin: 0.5rem 0rem 0rem 0rem;
+}
+.resume:hover {
+    color: white;
+   background-color: gray;
+   border: none;
+   transition: 0.5s;
+}
+
+.contact {
+    font-size: 1.25rem;
+   padding: 0.5rem;
+   border-radius: 0.75rem;
+   text-align: center;
+   margin: 0.5rem 0rem 0rem 0rem
+}
+.contact:hover {
+    color: white;
+   background-color: gray;
+   border: none;
+   transition: 0.5s;
+}
+.works {
+    font-size: 1.25rem;
+   padding: 0.5rem;
+   border-radius: 0.75rem;
+   text-align: center;
+   margin: 0.5rem 0rem 0rem 0rem
+}
+.works:hover {
+    color: white;
+   background-color: gray;
+   border: none;
+   transition: 0.5s;
+}
+/*     absolute  mt-2 py-4 px-1 bg-white shadow rounded w-11/12 -ml-96       */
+/* .mobileNav {
+    position: absolute;
+    margin-top: 0.5rem;
+    padding: 1rem, 0.25rem;
+    background-color: white;	
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 0.25rem;
+    width: 90%;
+    
+} */
