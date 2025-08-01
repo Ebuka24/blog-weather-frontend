@@ -60,33 +60,3 @@ export default async  function Post() {
 
 
 
-
-
-
-// useEffect(() => {
-//     const fetchPost = async () => {
-//         try {
-//             const response = await fetch("/api/posts");
-//             if (!response.ok) {
-//                 throw new Error("response was not ok")
-//             }
-//             const data: post[] = await response.json();
-//             setPosts(data);
-//         } catch (error: any) {
-//             setError(error.message);
-//         } finally {
-//             setLoading(false);
-//         }
-//     }
-//     fetchPost();
-// }, []);
-
-// if (loading) return <p>loading ...</p>
-// if (error) return <p> error </p>
-
-
-
-// //const posts = await fetchPost();
-// const [posts, setPosts] = useState("loading"); // State to store API data
-// // const [loading, setLoading] = useState<boolean>(true); // State to manage loading state
-// // const [error, setError] = useState<string | null>(null); // State to manage errors
